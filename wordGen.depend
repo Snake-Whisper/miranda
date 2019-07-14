@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1563036871 source:/exchange/C/wordGen/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utils.h"
+	"genesis.h"
+
+1563030977 /exchange/C/wordGen/utils.h
+
+1563030870 source:/exchange/C/wordGen/utils.c
+	"utils.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+
+1563025676 /exchange/C/wordGen/worker.h
+
+1563027461 source:/exchange/C/wordGen/worker.c
+	<stdio.h>
+	"worker.h"
+	"utils.h"
+	"string.h"
+
+1563031126 source:/exchange/C/wordGen/genesis.c
+	<stdio.h>
+	"genesis.h"
+	"utils.h"
+	"string.h"
+
+1563031129 /exchange/C/wordGen/genesis.h
+
+1563031650 source:/exchange/C/wordGen/client.c
+
+1563031597 source:/exchange/C/wordGen/server.c
+
+1563036854 source:/exchange/C/wordGen/jobQueue.c
+	<stdio.h>
+	<stdlib.h>
+	"jobQueue.h"
+
+1563036961 /exchange/C/wordGen/jobQueue.h
+
